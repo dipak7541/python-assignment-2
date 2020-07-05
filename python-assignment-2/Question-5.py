@@ -1,0 +1,12 @@
+mytuple=('Tanka','Tiwari','22')
+print(mytuple)
+people=[]
+people.append(mytuple)
+print(people)
+friend1=('Dipak','Tiwari','23')
+friend2=('Jaunty',"Guy",'21')
+people.append(friend1)
+print(people)
+people.append(friend2)
+print(people)
+print(sorted(people,key=lambda x: x[2]))
