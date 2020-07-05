@@ -1,0 +1,10 @@
+mytuple=('Tanka','Tiwari','22')
+friend1=('Dipak','Tiwari','23')
+friend2=('Jaunty',"Guy",'None')
+friend3=('Anita',"Khadka",'24')
+frdNcollg=[]
+frdNcollg.append(mytuple)
+frdNcollg.append(friend1)
+frdNcollg.append(friend2)
+frdNcollg.append(friend3)
+print(frdNcollg)
